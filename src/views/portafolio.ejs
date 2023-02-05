@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>AleXRD</title>
+
+  </head>
+  <body >
+    
+    <div style="background: #343a40; text-align: center;" id="Home">
+    <div class="container" >
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="me">
+            <img class="perfil"src="img/perfil.jpg" alt="">
+            <p class="headers"  style="color: #f8f9fa;" >AleXRD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div style="background: #fff;" id="About">
+    <div class="container" >
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="about">
+            <p class="headers">About Me</p>
+            <p>Hello!, I am Alejandro Sánchez González from Cuba, I already started to programming before 6 years ago, I love coding a lot, I still study in a university computer ingineering.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+    <div style="background: #fff;" id="Skills">
+      <div class="container" >
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="about">
+              <p class="headers">Skills</p>
+              <p>What technologies I use?, theres a lot of them, Here are the fields in which I Work, soon I want to add other field but for now I show just this</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a href="#Frontend">
+            <div class="cart">
+              <img src="img/icons/Frameworks/Html.svg" alt="">
+              <div class="about">
+                <p class="headers">Frontend</p>
+                <p>I love a lot developing webs, here are technologies I can use and examples</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a href="#Backend">
+            <div class="cart">
+              <img src="img/icons/Frameworks/nodejs-1.svg" alt="">
+              <div class="about">
+                <p class="headers">Backend</p>
+                <p>I have started this year to study of him.
+                  for now I can use this.
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <a href="#Others">
+            <div class="cart">
+              <img src="img/icons/Frameworks/unity-69.svg" alt="">
+              <div class="about">
+                <p class="headers">Others</p>
+                <p>Theres other languages what i can use.</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  <div style="background: #fff;" id="Frontend">
+    <div class="container" >
+      <%- include('partials/frontend') %>
+    </div>
+  </div>
+  <div style="background: #fff;" id="Backend">
+    <div class="container" >
+      <%- include('partials/backend') %>
+    </div>
+  </div>
+
+  <div style="background: #fff;" id="Others">
+    <div class="container" >
+      <%- include('partials/Others') %>
+    </div>
+  </div>
+
+    
+    <%- include('partials/end') %> 
+
+    <%- include('partials/footer') %>
+  </body>
+</html>
